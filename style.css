@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: sans-serif; 
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: #80c8f0;
+    background-size: 100%;
+    background-position: center;
+}
+.navbar{
+    background-color:#2364aa;
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position:relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform:inherit;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background:#80c8f0;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 90%;
+}
+.containerouter {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 20px ;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+.containerouter p {
+    padding-right: 50px;
+    font-size: 30px;
+    font-family:'Noto Serif SC', serif;
+
+}
+.containerouter2 {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background: #80c8f0;
+
+}
+.containerouter2 h3{
+    padding-right: 50px;
+    font-size: 30px;
+    font-family:'serif';
+    background: #80c8f0;
+
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+}
+.containertop2 {
+    display:grid;
+    grid-template-rows: 1;
+    color: white;
+    background: #80c8f0;
+}
+.containertop {
+    display:grid;
+    grid-template-rows: 2;
+    padding: 2em 1em;
+    color: white;
+}
+.fullcontainer{
+    display:grid;
+    grid-template-columns: auto auto;
+    padding: 1em 1em;
+    background: #80c8f0;
+}
+h1 {
+    font-family:'Noto Serif SC', serif;
+    color: white;
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background:#80c8f0;
+}
+.containerouter{
+    color: white;
+}
+.logo2{
+    width: 500px;
+    padding-top:40px ;
+    padding-right: 20px;
+}
+.sameecha{
+    width: 300px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.pragun{
+    width: 300px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.shruti{
+    width: 300px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.p1{
+    color: #fff;
+}
+.recq{
+    padding-left: 10px;
+    width: 1650px;
+}
+.rules h3{
+    padding: 20px;
+    font-family:'Noto Serif SC', serif;
+    color: white;
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    background:#80c8f0;
+}
+
